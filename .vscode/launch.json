@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GajiBulananKaryawan",
+            "request": "launch",
+            "mainClass": "Praktikum03.GajiBulananKaryawan",
+            "projectName": "praktikumDaspro_e1f21c9a"
+        },
+        {
+            "type": "java",
+            "name": "ContohOperator16",
+            "request": "launch",
+            "mainClass": "Praktikum03.ContohOperator16",
+            "projectName": "praktikumDaspro_e1f21c9a"
+        },
+        {
+            "type": "java",
+            "name": "HitungTagihanListrik",
+            "request": "launch",
+            "mainClass": "Praktikum03.HitungTagihanListrik",
+            "projectName": "praktikumDaspro_e1f21c9a"
+        },
+        {
+            "type": "java",
+            "name": "Bank16",
+            "request": "launch",
+            "mainClass": "Praktikum03.Bank16",
+            "projectName": "praktikumDaspro_e1f21c9a"
+        },
+        {
+            "type": "java",
+            "name": "Segita16",
+            "request": "launch",
+            "mainClass": "Praktikum03.Segita16",
+            "projectName": "praktikumDaspro_e1f21c9a"
+        },
+        {
+            "type": "java",
+            "name": "ContohTipeData16",
+            "request": "launch",
+            "mainClass": "Praktikum03.ContohTipeData16",
+            "projectName": "praktikumDaspro_e1f21c9a"
+        },
+        {
+            "type": "java",
+            "name": "ContohVariable16",
+            "request": "launch",
+            "mainClass": "Praktikum03.ContohVariable16",
+            "projectName": "praktikumDaspro_e1f21c9a"
+        }
+    ]
+}
