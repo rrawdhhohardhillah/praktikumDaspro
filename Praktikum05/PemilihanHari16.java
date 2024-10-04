@@ -1,31 +1,33 @@
- package PemilihanHari16;
- import java.util.Scanner;
+package PemilihanHari16;
+import java.util.Scanner;
 
- public class PemilihanHari16 {
+public class PemilihanHari16 {
 
     public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    String dayName, dayType;
-    System.out.println(" input day name:");
-    dayName = sc.nextLine();
-    switch (dayName.toLowerCase()) {
-         case "monday":
-         case "tuesday":
-         case "wednesday":
-         case "thursday":
-         case "friday":
-              dayType = "weekday";
-              break;
-         case "saturday":
-         case "sunday":
-              dayType = "weekend";
-              break;
-        default:
-        dayType = "invalid day name";
-        
+        Scanner sc = new Scanner(System.in);
+        int angka;
+        String dayType;
+
+        System.out.print("Masukkan angka (1-7): ");
+        angka = sc.nextInt();
+
+        switch (angka) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                dayType = "Weekday";
+                break;
+            case 6:
+            case 7:
+                dayType = "Weekend";
+                break;
+            default:
+                dayType = "Invalid Number";
+        }
+
+        System.out.println(angka + " is a " + dayType);
+        sc.close();
     }
-    System.out.println(dayName + "is a" + dayType);
-    sc.close();
 }
-}
-    

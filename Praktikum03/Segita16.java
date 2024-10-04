@@ -7,14 +7,17 @@ public class Segita16 {
        int alas, tinggi;
        float luas; 
 
-       System.out.println("Masukkan alas: ");
+       System.out.print("Masukkan alas: ");
        alas = sc.nextInt();
-       System.out.println("Masukkan tinggi: ");
+       System.out.print("Masukkan tinggi: ");
        tinggi = sc.nextInt();
 
        luas = alas * tinggi / 2;
 
-       System.out.println("Luas segitiga: " + luas);
+       System.out.print("Luas segitiga: " + luas);
+
+
+       sc.close();
 
     }
 }

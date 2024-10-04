@@ -1,5 +1,6 @@
 package Praktikum03;
 import java.util.Scanner;
+
 public class Bank16 {
     public static void main(String[] args) {
         
@@ -9,8 +10,11 @@ public class Bank16 {
 
         persentaseBunga = 0.0002;
 
-        System.out.println("Masukkan jumlah tabungan awal: ");
+        // untuk dibugging (agar tau erornya dimana) untuk mengeluarkan output yang kita mau serta mengetahui letak erornya dimana  
+        System.out.println("Masukkan jumlah tabungan awal: "); 
+        //fungsi sc disini untuk mendeklarasi nilai tabungan awal
         tabunganAwal = sc.nextDouble();
+        //kemudian fungsi dari nextin adalah meninput type data int dari pengguna
         System.out.println("Masukkan lama menabung (bulan): ");
         lamaMenabung = sc.nextInt();
 
@@ -20,5 +24,6 @@ public class Bank16 {
         System.out.println("Bunga: " + bunga);
         System.out.println("Tabungan akhir: " + tabunganAkhir);
 
+        sc.close();
     }
 }

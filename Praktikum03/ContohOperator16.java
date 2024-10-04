@@ -11,7 +11,7 @@ public class ContohOperator16 {
         System.out.println("Setelah operasi, nilai y adalah " + y);
 
         int z = 12;
-        System.out.println(x < z);
+        System.out.println(x < z); // boleean
         System.out.println(y == x);
         System.out.println(y <= x);
         System.out.println(y <= x && x < z || y == x);
@@ -20,6 +20,9 @@ public class ContohOperator16 {
         System.out.println("Nilai i adalah " + i);
 
         i %= 4;
+
         System.out.println("Nilai i yang baru adalah " + i);
+
+        
     }
 }

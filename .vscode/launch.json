@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PemilihanPercoban116",
+            "request": "launch",
+            "mainClass": "PemilihanPercoban116",
+            "projectName": "praktikumDaspro_e1f21c9a"
+        },
+        {
+            "type": "java",
+            "name": "TotalTagihanListrik16",
+            "request": "launch",
+            "mainClass": "Praktikum03.TotalTagihanListrik16",
+            "projectName": "praktikumDaspro_e1f21c9a"
+        },
+        {
+            "type": "java",
             "name": "GajiBulananKaryawan",
             "request": "launch",
             "mainClass": "Praktikum03.GajiBulananKaryawan",

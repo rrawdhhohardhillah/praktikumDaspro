@@ -8,10 +8,10 @@ public class GajiBulananKaryawan {
         double bonus = 0.10;
         double pajak = 0.5;
 
-        System.out.println("Masukkan lama jam kerja: ");
+        System.out.print("Masukkan lama jam kerja: ");
         double jamKerja = sc.nextDouble();
 
-        System.out.println("Masukkan upah per jam: ");
+        System.out.print("Masukkan upah per jam: ");
         double upahPerjam = sc.nextDouble();
 
         double totalgaji = jamKerja*upahPerjam;
