@@ -27,7 +27,8 @@ public class Pemilihan2Percobaan216 {
         if (member.equalsIgnoreCase("y")) {
             diskon = 0.10;
             System.out.println("Besar diskon = 10%");
-            if (pilihan_menu == 2) {
+
+            if (pilihan_menu == 1) {
                 harga = 14000;
                 System.out.println("Harga ricebowl = " + harga);
 
@@ -43,12 +44,9 @@ public class Pemilihan2Percobaan216 {
                 System.out.println("Masukkan pilihan Menu dengan benar");
                 return; //Menghentikan eksekusi lebih lanjut jika pilihan salalh
             }
-              //Menghitung total bayar
-              System.out.println("Total bayar = " + harga);  
-            }else {
-                System.out.println("Member tidak Valid");
-            }
-            System.out.println("-----------------------------------------");
-        }
-    }
-
+              //Menghitung total bayar setelah diskon
+              total_bayar = harga - (harga * diskon);
+              System.out.println("Total bayar setelah diskon = " + total_bayar);  
+            } }
+}
+    
