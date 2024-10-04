@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pemilihan2Percobaan316",
+            "request": "launch",
+            "mainClass": "Pemilihan2Percobaan316",
+            "projectName": "praktikumDaspro_e1f21c9a"
+        },
+        {
+            "type": "java",
             "name": "Pemilihan2Percobaan216",
             "request": "launch",
             "mainClass": "Pemilihan2Percobaan216",
