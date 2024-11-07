@@ -10,17 +10,13 @@ public class PemilihanPercoban116 {
         int tahun;
         System.out.print("Masukan tahun = ");
         tahun = sc.nextInt();
-        
-        if (tahun % 4 == 0) {
+
+        if ((tahun % 4 == 0 && tahun % 100 != 0) || (tahun % 400 == 0)) {
             System.out.println("Tahun Kabisat");
-            if (tahun % 100 == 0) {
-                if (tahun % 400 != 0) {
-                    System.out.println("Bukan Tahun Kabisat");
-                }
-            }
         } else {
-             System.out.println("Bukan Tahun Kabisat");
+            System.out.println("Bukan Tahun Kabisat");
         }
+        
 
         sc.close();
     }
